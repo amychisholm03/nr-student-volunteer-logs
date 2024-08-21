@@ -1,9 +1,19 @@
-# ESM Logs in Context
-This utility was designed to generate logs for winston or pino.  It can be used to do performance testing of the application log forwarding in agent.
+# Logs Demo
+
+This utility was designed to generate logs for winston or pino (popular logging frameworks). It can be used to do performance testing of the application log forwarding in agent.
 
 ## Getting Started
 
-**Note**: You must have a New Relic license key.
+**Note**: You must have a [New Relic license key](https://docs.newrelic.com/docs/apis/intro-apis/new-relic-api-keys/#license-key) and you must have Docker installed.
+
+### Setup dependencies
+
+Make sure are in ./logs-demo/app and install the required node modules by running the following:
+
+```
+cd app
+npm i
+```
 
 ### Set environment variable values
 
@@ -22,8 +32,11 @@ In another terminal, you can generate server responses by executing
 ```sh
 curl http://localhost:3000/ 
 ```
-or 
+
+or
+
 ```sh
 wget -o stdout http://localhost:3000/ 
 ```
+
 Look for your logs in your application in NR One by clicking on the Logs link. You can compare the value returned from the server to the value logged in NR One.

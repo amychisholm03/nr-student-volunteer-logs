@@ -35,7 +35,7 @@ But first, a little context:
 
 #### Visualizing your Logs
 
-After following the instructions the demo app's README, login to your [New Relic](https://one.newrelic.com) account. If you don't have one, you should!
+After following the instructions in the demo app's README, login to your [New Relic](https://one.newrelic.com) account. If you don't have one, you should!
 
 After that, locate APM & Services on the right-hand side of the screen and click on `logs-demo`, our app. Below is a screenshot that shows our app name and some of the logs recently logged by our app.
 

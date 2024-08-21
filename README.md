@@ -25,7 +25,7 @@ But first, a little context:
 1. The Node agent is part of New Relic (NR)'s Application Performance Monitoring (APM), one of the first services provided by NR. The agent is called 'Node' because it instruments [Node.js](https://nodejs.org/en), the most popular JavaScript runtime environment, applications.
    1. There are many other APM agents for other popular programming languages, like Java, Python, and .NET.
 2. This app requires [Docker](https://www.docker.com/products/docker-desktop/), a platform that will containerize our app, which is running a server on localhost, to be installed on your computer.
-3. If you would like to test this out yourself, follow the instructions in the [README](./logs-demo/README/md).
+3. If you would like to test this out yourself, follow the instructions in the [README](./logs-demo/README.md).
 
 #### Visualizing your Logs
 

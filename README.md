@@ -1,26 +1,30 @@
-# nr-student-volunteer-logs
+# The Student Guide to Logs
 
-## What is a Log? And no, we are not talking about a tree...
+### What is a Log? And no, we are not talking about a tree...
 A log is formally defined as discrete, specific actions with very granular details. Doesn't make much sense, does it? Let's try to put this in other words.
 
 Logs can be considered a fancy type of print statement that is specifially used to inform the *programmer* of the status of an application. We use logs as a way to record and report the events and behaviors of a program in a consistent, text-based format for future reference and tracking. Logs can come in the form of error messages, warnings, traces, informational messages, and more to quickly and easily identify the status of any process within an application. These inherently contain more information than a simple print statement and are extremely important for maintaining an application.
 
 *Some examples of where you may have come across logs before include an HTTP status of 200 to signify that our web page is functioning as expected, or even an HTTP status of 404 to signify that an error has occured in finding our web page.*
 
+### Why do you want to view your logs?
+Logs can be beneficial in many ways. One of the most common uses of logs is to identify bugs in a program. Logs have timestamps attached to each event, which can quickly inform the programmer when an issue occured. By recording and tracking these logs, we are able to identify patterns in our code where errors or warnings may be more frequent, which can reduce the amount of time programmers spend simply finding when and where issues occur.
 
-## How is this useful?
-Logs can be beneficial in many ways. One of the most common uses of logs is to identify bugs in a program. Logs have timestamps attached to each event, which can quickly inform the programmer when an issue occured. By recording and tracking these logs, we are able to identify patterns in our code where errors or warnings may be more frequent, which can reduce the amount of time programmers spend simply finding where issues occur.
+### What does this have to do with New Relic?
+<!-- what new relic does with logs and where to find them -->
 
+<!-- Images or video on how to view it in New Relic -->
 
-## What does this have to do with New Relic?
-Information on how it's used in New Relic
+### How do you modify your logs in New Relic?
 
-Images or video on how to view it in New Relic
+<!-- Information on how it's used in New Relic -->
 
+### Demo app for Logging
 
-## Let me try!
-Tasks that the student can complete to show understanding of the material
+We will be using the Node APM agent's example logging application, [esm-logs-in-context](https://github.com/newrelic/newrelic-node-examples/tree/main/application-logging/esm-logs-in-context), to show you how it works.
+
+![1724264936119](image/README/1724264936119.png)
 
 
 ## Resources
-Resources for further learning
+<!-- Resources for further learning -->
